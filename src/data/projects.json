@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Database management system",
+    "imageSrc": "projects/project.png",
+    "description": "Team size: 4. During the project, we apply major procedure, function, trigger, authentication of Sqlserver ",
+    "skills": ["C#", "ADO.NET", "SqlServer"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/lenhutanh/DBMS"
+  },
+  {
+    "title": "Website sell cosmetics",
+    "imageSrc": "projects/cosmetic.jpg",
+    "description": "Team size: 4 . I build including log in, sign up, forget password, search products",
+    "skills": ["Java", "SqlServer", "Framework Spring boot", "Security", "HTML", "CSS","some available templates"],
+    "demo": "https://youtu.be/9178cBSO6e0",
+    "source": "https://github.com/MinhTrung9443/WebProject"
+  },
+  {
+    "title": "App Handmade",
+    "imageSrc": "projects/project.png",
+    "description": "With size 2 members, we share all knowlegde and do together",
+    "skills": ["Java", "Android Studio", "SqlServer"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }
+]

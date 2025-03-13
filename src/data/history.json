@@ -1,0 +1,29 @@
+[
+  {
+    "role": "Leader",
+    "organisation": "Database management system",
+    "startDate": "Jan, 2024",
+    "endDate": "May, 2024",
+    "experiences": ["Team sied: 4","We build a Hotel management system website by C#, ADO.NET, SqlServer.", "During the project, we apply major procedure, function, trigger, authentication of Sqlserver "],
+    "imageSrc": "history/google.png"
+  },
+  {
+    "role": "Member",
+    "organisation": "Website sell cosmetics",
+    "startDate": "Sept, 2024",
+    "endDate": "Jan, 2024",
+    "experiences": ["Team size: 4","We build by Java, SqlServer, Framework Spring boot, Security, HTML, CSS and some available templates", "I build including log in, sign up, forget password, search products"],
+    "imageSrc": "history/microsoft.png"
+  },
+  {
+    "role": "Member",
+    "organisation": "App Handmade",
+    "startDate": "Jan, 2025",
+    "endDate": "May, 2025",
+    "experiences": [
+      "",
+      "Environment: Java, Android Studio, SqlServer"
+    ],
+    "imageSrc": "history/netflix.png"
+  }
+]
