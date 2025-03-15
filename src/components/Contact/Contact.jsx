@@ -20,19 +20,19 @@ export const Contact = () => {
             src={getImageUrl("contact/linkedinIcon.png")}
             alt="LinkedIn icon"
           />
-          <a href="https://www.linkedin.com/in/ti%C3%AAn-li%C3%AAn-b34a88222/">linkedin-huetien</a>
+          <a href="https://www.linkedin.com/in/ti%C3%AAn-li%C3%AAn-b34a88222/">linkedin</a>
         </li>
         <li className={styles.link}>
           <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
-          <a href="https://github.com/iamtien-cmd">github-huetien</a>
+          <a href="https://github.com/iamtien-cmd">github</a>
         </li>
         <li className={styles.link}>
           <img src={getImageUrl("contact/youtubeIcon.png")} alt="Youtube icon" />
-          <a href="https://www.youtube.com/@34.lienhuetien92">Youtube-huetien</a>
+          <a href="https://www.youtube.com/@34.lienhuetien92">Youtube</a>
         </li>
         <li className={styles.link}>
           <img src={getImageUrl("contact/facebookIcon.png")} alt="Facebook icon" />
-          <a href="https://www.facebook.com/hue.tien.551579/">Youtube-huetien</a>
+          <a href="https://www.facebook.com/hue.tien.551579/">Facebook</a>
         </li>
         
       </ul>
