@@ -9,7 +9,7 @@ export const About = () => {
       <h2 className={styles.title}>About</h2>
       <div className={styles.content}>
         <img
-          src={getImageUrl("about/aboutImage.png")}
+          src={getImageUrl("hero/avt1.png")}
           alt="Me sitting with a laptop"
           className={styles.aboutImage}
         />
@@ -19,19 +19,16 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Hobby</h3>
               <p>
-                Play chess,go swimming, travel, watch movie
+                Play chess, go swimming, travel, watch movie, foodie :3
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
          
-          <img
-        src={getImageUrl("hero/avt1.png")}
-        alt="Hero image of me"
-        className={styles.heroImg}
-      />
+      
       <p>
-        Life is just a game. Let's play together :))</p>
+      I was born in 2004 and grew up in Soc Trang. Currently, I am pursuing my studies at the University of Technology and Education, where I am majoring in Information Technology. This field has always fascinated me because of its endless possibilities to innovate, solve problems, and shape the future through technology.
+     </p>
       
       
           </li>
