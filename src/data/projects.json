@@ -3,7 +3,11 @@
     "title": "Database management system",
     "imageSrc": "projects/project.png",
     "description": "Team size: 4. During the project, we apply major procedure, function, trigger, authentication of Sqlserver ",
-    "skills": ["C#", "ADO.NET", "SqlServer"],
+    "skills": [
+      "C#",
+      "ADO.NET",
+      "SqlServer"
+    ],
     "demo": "https://www.example.com",
     "source": "https://github.com/lenhutanh/DBMS"
   },
@@ -11,7 +15,15 @@
     "title": "Website sell cosmetics",
     "imageSrc": "projects/cosmetic.jpg",
     "description": "Team size: 4 . I build including log in, sign up, forget password, search products",
-    "skills": ["Java", "SqlServer", "Framework Spring boot", "Security", "HTML", "CSS","some available templates"],
+    "skills": [
+      "Java",
+      "SqlServer",
+      "Framework Spring boot",
+      "Security",
+      "HTML",
+      "CSS",
+      "some available templates"
+    ],
     "demo": "https://youtu.be/9178cBSO6e0",
     "source": "https://github.com/MinhTrung9443/WebProject"
   },
@@ -19,8 +31,53 @@
     "title": "App Handmade",
     "imageSrc": "projects/project.png",
     "description": "With size 2 members, we share all knowlegde and do together",
-    "skills": ["Java", "Android Studio", "SqlServer"],
+    "skills": [
+      "Java",
+      "Android Studio",
+      "SqlServer"
+    ],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
+  },
+  {
+    "title": "Detect Error",
+    "imageSrc": "projects/project.png",
+    "description": "Team size: 1 | 6/2/2026\n• Defined project scope and structured development phases\n• Developed log simulation tool in C to model runtime fault patterns\n• Automated log parsing and reporting using Python\n• Organized repository structure and version control workflow\n• Delivered summarized debugging reports to support validation review",
+    "skills": [
+      "C",
+      "Python"
+    ],
+    "demo": "",
+    "source": "https://github.com/iamtien-cmd/DETECTERROR"
+  },
+  {
+    "title": "Career Zone \u2013 Recruitment Platform",
+    "imageSrc": "about/careerzone.png",
+    "description": "Team size: 2 | 8/2025 \u2013 01/2026\n• Co-led project planning, task allocation, and milestone definition\n• Managed development timeline and tracked weekly deliverables\n• Designed backend architecture and implemented system monitoring logic\n• Coordinated testing and deployment phases in Linux-based environments\n• Ensured feature completion aligned with initial scope and requirements",
+    "skills": [
+      "MongoDB",
+      "Express.js",
+      "React",
+      "Node.js"
+    ],
+    "demo": [
+      {
+        "label": "Demo",
+        "url": "https://www.youtube.com/watch?v=68LFN7wwUUs"
+      },
+      {
+        "label": "Candidate",
+        "url": "https://career-zone-candidate-fe-delta.vercel.app/"
+      },
+      {
+        "label": "Recruiter",
+        "url": "https://career-zone-six.vercel.app/"
+      },
+      {
+        "label": "Admin",
+        "url": "https://career-zone-admin-fe.vercel.app/login"
+      }
+    ],
+    "source": "https://github.com/CareerZone-graduation/CZCandidate"
   }
 ]

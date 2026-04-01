@@ -1,0 +1,121 @@
+@import "../../vars.css";
+
+.certSection {
+  margin-top: 80px;
+  padding: 0 10%;
+  color: var(--color-text);
+  margin-bottom: 60px;
+}
+
+.certTitle {
+  font-size: 42px;
+  font-weight: 800;
+  margin-bottom: 40px;
+  background: linear-gradient(90deg, #fff, var(--color-primary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.certList {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+  padding: 0;
+}
+
+.certItem {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  background: rgba(4, 21, 45, 0.45);
+  backdrop-filter: blur(10px);
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.certItem::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  border-radius: 12px;
+  box-shadow: inset 0 0 0 1px transparent;
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+.certItem:hover {
+  transform: translateY(-4px) translateX(4px);
+  background: rgba(4, 21, 45, 0.7);
+  box-shadow: -4px 8px 24px rgba(0,0,0,0.3);
+}
+
+.certItem:hover::before {
+  box-shadow: inset 0 0 0 1px var(--color-primary);
+}
+
+.certThumb {
+  width: 90px;
+  height: 65px;
+  object-fit: cover;
+  border-radius: 6px;
+  background: #000;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+  border: 1px solid rgba(255,255,255,0.1);
+  transition: transform 0.3s ease;
+}
+
+.certItem:hover .certThumb {
+  transform: scale(1.05) rotate(2deg);
+}
+
+.certInfo {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.certName {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.3;
+}
+
+.certIssuer {
+  margin-top: 6px;
+  color: rgba(255,255,255,0.6);
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.certLink {
+  margin-top: 8px;
+  color: var(--color-primary);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  transition: color 0.2s;
+}
+
+.certLink:hover {
+  color: #fff;
+}
+
+.certLink::after {
+  content: "↗";
+  font-size: 12px;
+}
+
+@media screen and (max-width: 830px) {
+  .certTitle { font-size: 32px; }
+  .certList { grid-template-columns: 1fr; }
+}

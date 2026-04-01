@@ -1,26 +1,27 @@
 @import "../../vars.css";
 
 .container {
-  margin-top: 76px;
+  margin-top: 80px;
   color: var(--color-text);
   margin-left: 10%;
   margin-right: 10%;
+  margin-bottom: 80px;
 }
 
 .title {
-  font-size: 35px;
-  font-weight: 700;
-  letter-spacing: 1.75px;
+  font-size: 42px;
+  font-weight: 800;
+  letter-spacing: 1px;
   text-transform: uppercase;
+  background: linear-gradient(90deg, #fff, var(--color-primary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .projects {
-  margin-top: 37px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
   width: 100%;
 }

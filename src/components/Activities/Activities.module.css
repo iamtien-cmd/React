@@ -1,0 +1,86 @@
+@import "../../vars.css";
+
+.container {
+  margin-top: 80px;
+  padding: 0 10%;
+  color: var(--color-text);
+  position: relative;
+  z-index: 1;
+}
+
+.title {
+  font-size: 42px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  background: linear-gradient(90deg, #fff, var(--color-primary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 40px;
+  font-weight: 300;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.card {
+  background: rgba(4, 21, 45, 0.4);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(1.02);
+  border-color: rgba(106, 13, 173, 0.5);
+  box-shadow: 0 15px 35px rgba(106, 13, 173, 0.4);
+}
+
+.image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  transition: transform 0.5s ease;
+}
+
+.card:hover .image {
+  transform: scale(1.05);
+}
+
+.cardBody {
+  padding: 20px;
+  position: relative;
+  background: linear-gradient(0deg, rgba(4,21,45,0.8) 0%, transparent 100%);
+  z-index: 2;
+}
+
+.cardTitle {
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 6px;
+}
+
+.cardCaption {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.4;
+}
+
+@media screen and (max-width: 830px) {
+  .title { font-size: 32px; }
+  .grid { gap: 16px; }
+}

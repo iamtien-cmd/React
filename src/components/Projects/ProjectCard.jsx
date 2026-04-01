@@ -25,12 +25,23 @@ export const ProjectCard = ({
         })}
       </ul>
       <div className={styles.links}>
-        <a href={demo} className={styles.link}>
-          Demo
-        </a>
-        <a href={source} className={styles.link}>
-          Source
-        </a>
+        {typeof demo === 'string' && demo ? (
+          <a href={demo} className={styles.link} target="_blank" rel="noopener noreferrer">
+            Demo
+          </a>
+        ) : Array.isArray(demo) ? (
+          demo.map((d, i) => (
+            <a key={i} href={d.url} className={styles.link} target="_blank" rel="noopener noreferrer">
+              {d.label}
+            </a>
+          ))
+        ) : null}
+        
+        {source && (
+          <a href={source} className={styles.link} target="_blank" rel="noopener noreferrer">
+            Source
+          </a>
+        )}
       </div>
     </div>
   );
