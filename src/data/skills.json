@@ -1,7 +1,9 @@
 [
-  { "category": "Programming", "items": "C/C++, Python, Bash" },
-  { "category": "System & Environment", "items": "Linux, GCC, Git, MSYS2" },
-  { "category": "Automation & Validation", "items": "Log parsing, scripting automation, module-level validation" },
-  { "category": "Fundamentals", "items": "Computer Architecture, Operating Systems" },
-  { "category": "Communication Protocols", "items": "UART, SPI, TCP/IP" }
+  { "category": "Programming Languages", "items": "Java, JavaScript, C/C++, C#, Python" },
+  { "category": "Java Technologies", "items": "Java Core, JSP/Servlet, Spring Boot, Spring MVC, Spring Security, JPA/Hibernate" },
+  { "category": "Frontend", "items": "HTML, CSS, JavaScript, Bootstrap, jQuery, ReactJS" },
+  { "category": "Backend Technologies", "items": "NodeJS, ExpressJS" },
+  { "category": "Databases", "items": "MySQL, SQL Server, MongoDB" },
+  { "category": "Tools", "items": "Docker, Linux, Postman, Jira, Git, GitHub" },
+  { "category": "Concepts", "items": "OOP, RESTful APIs, MVC Architecture, Data Structures & Algorithms, Agile/Scrum" }
 ]

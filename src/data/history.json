@@ -1,63 +1,28 @@
 [
   {
-    "role": "Software Design Intern",
-    "organisation": "Renesas",
-    "startDate": "7/2025",
-    "endDate": "11/2025",
+    "role": "Software Engineer Intern",
+    "organisation": "Renesas Corporation",
+    "startDate": "Jul 2025",
+    "endDate": "Dec 2025",
     "experiences": [
-      "Collaborated with cross-functional hardware and validation teams to support firmware development and integration milestones",
-      "Participated in module-level validation and integration testing cycles",
-      "Coordinated issue tracking and debugging efforts across engineering teams",
-      "Automated regression testing workflows using Python and Bash to improve validation efficiency",
-      "Contributed to performance and memory optimization discussions during technical reviews"
+      "Developed and enhanced internal application features using Java Core and Object-Oriented Programming principles",
+      "Applied OOP principles and design patterns to improve code maintainability and scalability",
+      "Participated in Agile/Scrum workflow including sprint planning, development, debugging, testing, and review meetings using Jira and Confluence",
+      "Debugged and optimized application logic, improving performance and system reliability"
     ],
-    "imageSrc": "history/google.png"
+    "imageSrc": "history/renesas-cat.svg"
   },
   {
     "role": "IT Support Technician",
     "organisation": "HCMUTE",
-    "startDate": "9/2023",
-    "endDate": "9/2024",
+    "startDate": "Sep 2023",
+    "endDate": "Sep 2024",
     "experiences": [
       "Managed system configuration and troubleshooting for 500+ users",
       "Prioritized and resolved technical issues under time constraints",
       "Coordinated with internal teams to maintain service reliability",
       "Documented recurring issues and proposed process improvements"
     ],
-    "imageSrc": "history/microsoft.png"
-  },
-  {
-    "role": "Leader",
-    "organisation": "Database management system",
-    "startDate": "Jan, 2024",
-    "endDate": "May, 2024",
-    "experiences": [
-      "Team size: 4",
-      "We build a Hotel management system website by C#, ADO.NET, SqlServer.",
-      "During the project, we apply major procedure, function, trigger, authentication of Sqlserver "
-    ],
-    "imageSrc": "history/google.png"
-  },
-  {
-    "role": "Member",
-    "organisation": "Website sell cosmetics",
-    "startDate": "Sept, 2024",
-    "endDate": "Jan, 2024",
-    "experiences": [
-      "Team size: 4",
-      "We build by Java, SqlServer, Framework Spring boot, Security, HTML, CSS and some available templates",
-      "I build including log in, sign up, forget password, search products"
-    ],
-    "imageSrc": "history/microsoft.png"
-  },
-  {
-    "role": "Member",
-    "organisation": "App Handmade",
-    "startDate": "Jan, 2025",
-    "endDate": "May, 2025",
-    "experiences": [
-      "Environment: Java, Android Studio, SqlServer"
-    ],
-    "imageSrc": "history/netflix.png"
+    "imageSrc": "history/hcmute-monkey.svg"
   }
 ]

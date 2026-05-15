@@ -109,10 +109,15 @@
 }
 
 .aboutItemIcon img {
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
   margin-right: 25px;
-  filter: drop-shadow(0 0 10px rgba(106, 13, 173, 0.4));
+  filter: drop-shadow(0 4px 15px rgba(106, 13, 173, 0.3));
+  transition: transform 0.3s ease;
+}
+
+.aboutItemIcon img:hover {
+  transform: scale(1.1) rotate(5deg);
 }
 
 .aboutItemText {
@@ -187,21 +192,97 @@
 @media screen and (max-width: 830px) {
   .container {
     background-color: transparent;
-    padding: 0;
+    padding: 20px;
     border: none;
     box-shadow: none;
     backdrop-filter: none;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
   }
-  .content { flex-direction: column; }
-  .imageGallery { display: none; }
-  .aboutItem { flex-direction: column; text-align: center; padding: 24px; }
-  .aboutItemIcon img { margin-right: 0; margin-bottom: 20px; }
+  .title {
+    font-size: 32px;
+    text-align: center;
+  }
+  .content { 
+    flex-direction: column;
+    gap: 30px;
+  }
+  .imageGallery { 
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+  }
+  .photo1, .photo2 {
+    width: 200px;
+    height: 280px;
+  }
+  .photo1 {
+    transform: rotate(-4deg) translateX(-20px);
+  }
+  .photo2 {
+    transform: rotate(6deg) translateX(20px) translateY(20px);
+  }
+  .aboutItems {
+    width: 100%;
+  }
+  .aboutItem { 
+    flex-direction: column; 
+    text-align: center; 
+    padding: 24px;
+  }
+  .aboutItem h3 {
+    font-size: 22px;
+  }
+  .aboutItem p {
+    font-size: 16px;
+  }
+  .aboutItemIcon img { 
+    margin-right: 0; 
+    margin-bottom: 20px;
+    width: 60px;
+    height: 60px;
+  }
   
   .mediaGrid { grid-template-columns: repeat(2, 1fr); }
   .mediaImage { height: 140px; }
 }
 
 @media screen and (max-width: 420px) {
+  .container {
+    padding: 15px;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .title {
+    font-size: 28px;
+  }
+  .imageGallery {
+    min-height: 250px;
+  }
+  .photo1, .photo2 {
+    width: 150px;
+    height: 220px;
+  }
+  .photo1 {
+    transform: rotate(-3deg) translateX(-15px);
+  }
+  .photo2 {
+    transform: rotate(4deg) translateX(15px) translateY(15px);
+  }
+  .aboutItem {
+    padding: 20px;
+  }
+  .aboutItem h3 {
+    font-size: 20px;
+  }
+  .aboutItem p {
+    font-size: 15px;
+  }
+  .aboutItemIcon img {
+    width: 50px;
+    height: 50px;
+  }
   .mediaGrid { grid-template-columns: 1fr; }
   .mediaImage { height: 200px; }
 }
