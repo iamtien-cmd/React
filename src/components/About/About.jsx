@@ -56,7 +56,7 @@ export const About = () => {
                 • Marvell Vietnam Excellence Scholarship 2026<br/>
                 • Excellent Student – Five Criteria (3 Consecutive Years)<br/>
                 • Advanced Youth Following Ho Chi Minh's Teachings<br/>
-                • TOEIC 665 (Able to read technical documentation in English)<br/>
+                • Academic Encouragement Award for 2 out of 7 eligible semesters<br/>
                 • CodeLearn: C++ Basic, Java, OOP, Data Structures & Algorithms
               </p>
             </div>
