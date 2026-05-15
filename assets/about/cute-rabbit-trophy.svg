@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Background -->
+  <circle cx="100" cy="100" r="95" fill="#F0E6FF" opacity="0.5"/>
+  
+  <!-- Rabbit head -->
+  <ellipse cx="100" cy="95" rx="38" ry="35" fill="#E8D5F2"/>
+  
+  <!-- Long ears -->
+  <ellipse cx="80" cy="45" rx="12" ry="35" fill="#E8D5F2" transform="rotate(-15 80 45)"/>
+  <ellipse cx="120" cy="45" rx="12" ry="35" fill="#E8D5F2" transform="rotate(15 120 45)"/>
+  <ellipse cx="80" cy="48" rx="7" ry="25" fill="#FFB6D9" transform="rotate(-15 80 48)"/>
+  <ellipse cx="120" cy="48" rx="7" ry="25" fill="#FFB6D9" transform="rotate(15 120 48)"/>
+  
+  <!-- Eyes -->
+  <circle cx="88" cy="90" r="7" fill="#2C3E50"/>
+  <circle cx="112" cy="90" r="7" fill="#2C3E50"/>
+  <circle cx="90" cy="88" r="3" fill="white"/>
+  <circle cx="114" cy="88" r="3" fill="white"/>
+  
+  <!-- Nose -->
+  <path d="M 100 100 L 97 105 L 103 105 Z" fill="#FFB6D9"/>
+  
+  <!-- Mouth -->
+  <path d="M 100 105 L 100 108" stroke="#2C3E50" stroke-width="2"/>
+  <path d="M 100 108 Q 95 112 92 110" stroke="#2C3E50" stroke-width="2" fill="none"/>
+  <path d="M 100 108 Q 105 112 108 110" stroke="#2C3E50" stroke-width="2" fill="none"/>
+  
+  <!-- Whiskers -->
+  <line x1="70" y1="95" x2="85" y2="93" stroke="#9B59B6" stroke-width="1.5"/>
+  <line x1="70" y1="100" x2="85" y2="100" stroke="#9B59B6" stroke-width="1.5"/>
+  <line x1="130" y1="95" x2="115" y2="93" stroke="#9B59B6" stroke-width="1.5"/>
+  <line x1="130" y1="100" x2="115" y2="100" stroke="#9B59B6" stroke-width="1.5"/>
+  
+  <!-- Body -->
+  <ellipse cx="100" cy="145" rx="35" ry="38" fill="#E8D5F2"/>
+  
+  <!-- Arms -->
+  <ellipse cx="68" cy="140" rx="12" ry="25" fill="#E8D5F2"/>
+  <ellipse cx="132" cy="140" rx="12" ry="25" fill="#E8D5F2"/>
+  
+  <!-- Trophy -->
+  <ellipse cx="100" cy="135" rx="15" ry="8" fill="#FFD700"/>
+  <rect x="90" y="135" width="20" height="25" fill="#FFD700"/>
+  <rect x="85" y="160" width="30" height="8" fill="#FFD700"/>
+  <rect x="95" y="168" width="10" height="5" fill="#FFD700"/>
+  
+  <!-- Trophy handles -->
+  <path d="M 90 140 Q 80 140 80 150" stroke="#FFD700" stroke-width="3" fill="none"/>
+  <path d="M 110 140 Q 120 140 120 150" stroke="#FFD700" stroke-width="3" fill="none"/>
+  
+  <!-- Star on trophy -->
+  <path d="M 100 145 L 102 150 L 107 150 L 103 153 L 105 158 L 100 155 L 95 158 L 97 153 L 93 150 L 98 150 Z" fill="#FF6B9D"/>
+  
+  <!-- Confetti -->
+  <circle cx="40" cy="60" r="3" fill="#4ECDC4"/>
+  <circle cx="160" cy="70" r="3" fill="#FF6B9D"/>
+  <rect x="50" y="80" width="4" height="4" fill="#FFD700" transform="rotate(45 52 82)"/>
+  <rect x="150" y="100" width="4" height="4" fill="#6A0DAD" transform="rotate(45 152 102)"/>
+</svg>

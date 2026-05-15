@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Background -->
+  <circle cx="100" cy="100" r="95" fill="#FFF4E6" opacity="0.5"/>
+  
+  <!-- Fox head -->
+  <ellipse cx="100" cy="90" rx="40" ry="35" fill="#FF8C42"/>
+  
+  <!-- Ears -->
+  <path d="M 70 60 L 60 25 L 80 55 Z" fill="#FF8C42"/>
+  <path d="M 130 60 L 140 25 L 120 55 Z" fill="#FF8C42"/>
+  <path d="M 72 58 L 65 35 L 78 56 Z" fill="#FFF4E6"/>
+  <path d="M 128 58 L 135 35 L 122 56 Z" fill="#FFF4E6"/>
+  
+  <!-- Face white area -->
+  <ellipse cx="100" cy="95" rx="28" ry="25" fill="#FFF4E6"/>
+  
+  <!-- Eyes -->
+  <circle cx="88" cy="88" r="8" fill="#2C3E50"/>
+  <circle cx="112" cy="88" r="8" fill="#2C3E50"/>
+  <circle cx="90" cy="86" r="3" fill="white"/>
+  <circle cx="114" cy="86" r="3" fill="white"/>
+  
+  <!-- Nose -->
+  <circle cx="100" cy="100" r="4" fill="#2C3E50"/>
+  
+  <!-- Mouth -->
+  <path d="M 100 100 Q 92 106 88 103" stroke="#2C3E50" stroke-width="2" fill="none"/>
+  <path d="M 100 100 Q 108 106 112 103" stroke="#2C3E50" stroke-width="2" fill="none"/>
+  
+  <!-- Body -->
+  <ellipse cx="100" cy="145" rx="32" ry="35" fill="#FF8C42"/>
+  
+  <!-- Chest white -->
+  <ellipse cx="100" cy="150" rx="18" ry="25" fill="#FFF4E6"/>
+  
+  <!-- Arms -->
+  <ellipse cx="70" cy="140" rx="10" ry="22" fill="#FF8C42"/>
+  <ellipse cx="130" cy="140" rx="10" ry="22" fill="#FF8C42"/>
+  
+  <!-- Book -->
+  <rect x="80" y="135" width="40" height="30" rx="2" fill="#6A0DAD"/>
+  <line x1="100" y1="135" x2="100" y2="165" stroke="#9B59B6" stroke-width="2"/>
+  <line x1="85" y1="145" x2="95" y2="145" stroke="white" stroke-width="1.5"/>
+  <line x1="85" y1="150" x2="95" y2="150" stroke="white" stroke-width="1.5"/>
+  <line x1="105" y1="145" x2="115" y2="145" stroke="white" stroke-width="1.5"/>
+  <line x1="105" y1="150" x2="115" y2="150" stroke="white" stroke-width="1.5"/>
+  
+  <!-- Tail -->
+  <path d="M 130 160 Q 160 150 165 175" stroke="#FF8C42" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M 165 175 L 170 185" stroke="#FFF4E6" stroke-width="8" fill="none" stroke-linecap="round"/>
+  
+  <!-- Stars decoration -->
+  <path d="M 30 50 L 32 55 L 37 55 L 33 58 L 35 63 L 30 60 L 25 63 L 27 58 L 23 55 L 28 55 Z" fill="#FFD700" opacity="0.7"/>
+  <path d="M 170 80 L 172 85 L 177 85 L 173 88 L 175 93 L 170 90 L 165 93 L 167 88 L 163 85 L 168 85 Z" fill="#FFD700" opacity="0.7"/>
+</svg>

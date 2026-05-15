@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" width="150" height="150">
+  <!-- Deer head -->
+  <ellipse cx="75" cy="75" rx="35" ry="40" fill="#D4A574"/>
+  
+  <!-- Ears -->
+  <ellipse cx="55" cy="50" rx="10" ry="18" fill="#D4A574"/>
+  <ellipse cx="95" cy="50" rx="10" ry="18" fill="#D4A574"/>
+  <ellipse cx="55" cy="52" rx="6" ry="12" fill="#FFE4C4"/>
+  <ellipse cx="95" cy="52" rx="6" ry="12" fill="#FFE4C4"/>
+  
+  <!-- Antlers -->
+  <path d="M 50 40 L 45 25 M 45 25 L 40 30 M 45 25 L 42 20" stroke="#8B6F47" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M 100 40 L 105 25 M 105 25 L 110 30 M 105 25 L 108 20" stroke="#8B6F47" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Snout -->
+  <ellipse cx="75" cy="85" rx="20" ry="18" fill="#FFE4C4"/>
+  
+  <!-- Eyes -->
+  <circle cx="62" cy="70" r="8" fill="#2C3E50"/>
+  <circle cx="88" cy="70" r="8" fill="#2C3E50"/>
+  <circle cx="64" cy="68" r="3" fill="white"/>
+  <circle cx="90" cy="68" r="3" fill="white"/>
+  
+  <!-- Nose -->
+  <ellipse cx="75" cy="88" rx="6" ry="5" fill="#8B6F47"/>
+  
+  <!-- Mouth -->
+  <path d="M 75 88 Q 68 93 65 91" stroke="#8B6F47" stroke-width="2" fill="none"/>
+  <path d="M 75 88 Q 82 93 85 91" stroke="#8B6F47" stroke-width="2" fill="none"/>
+  
+  <!-- Body -->
+  <ellipse cx="75" cy="115" rx="30" ry="25" fill="#D4A574"/>
+  
+  <!-- Legs -->
+  <rect x="60" y="130" width="6" height="15" rx="3" fill="#8B6F47"/>
+  <rect x="84" y="130" width="6" height="15" rx="3" fill="#8B6F47"/>
+  
+  <!-- Tail -->
+  <ellipse cx="100" cy="115" rx="8" ry="12" fill="#D4A574"/>
+  
+  <!-- Spots -->
+  <circle cx="65" cy="110" r="4" fill="white" opacity="0.7"/>
+  <circle cx="80" cy="115" r="4" fill="white" opacity="0.7"/>
+  <circle cx="70" cy="120" r="3" fill="white" opacity="0.7"/>
+  
+  <!-- Hearts decoration -->
+  <path d="M 20 70 Q 25 65 30 70 Q 35 65 40 70 Q 40 80 30 88 Q 25 83 20 80 Q 20 75 20 70 Z" fill="#FF6B9D" opacity="0.5"/>
+  <path d="M 110 90 Q 115 85 120 90 Q 125 85 130 90 Q 130 100 120 108 Q 115 103 110 100 Q 110 95 110 90 Z" fill="#4ECDC4" opacity="0.5"/>
+</svg>

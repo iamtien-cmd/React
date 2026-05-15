@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" width="150" height="150">
+  <!-- Owl body -->
+  <ellipse cx="75" cy="85" rx="45" ry="50" fill="#8B7355"/>
+  
+  <!-- Wings -->
+  <ellipse cx="40" cy="85" rx="18" ry="35" fill="#6B5345"/>
+  <ellipse cx="110" cy="85" rx="18" ry="35" fill="#6B5345"/>
+  
+  <!-- Chest -->
+  <ellipse cx="75" cy="95" rx="25" ry="35" fill="#D4A574"/>
+  
+  <!-- Face circle -->
+  <circle cx="75" cy="60" r="40" fill="#8B7355"/>
+  
+  <!-- Eye patches -->
+  <circle cx="60" cy="55" r="18" fill="#F5E6D3"/>
+  <circle cx="90" cy="55" r="18" fill="#F5E6D3"/>
+  
+  <!-- Eyes -->
+  <circle cx="60" cy="55" r="12" fill="#2C3E50"/>
+  <circle cx="90" cy="55" r="12" fill="#2C3E50"/>
+  <circle cx="62" cy="53" r="5" fill="white"/>
+  <circle cx="92" cy="53" r="5" fill="white"/>
+  
+  <!-- Beak -->
+  <path d="M 75 65 L 70 75 L 80 75 Z" fill="#FF9E5C"/>
+  
+  <!-- Ear tufts -->
+  <path d="M 50 30 L 45 15 L 55 25 Z" fill="#8B7355"/>
+  <path d="M 100 30 L 105 15 L 95 25 Z" fill="#8B7355"/>
+  
+  <!-- Feet -->
+  <ellipse cx="60" cy="130" rx="8" ry="6" fill="#FF9E5C"/>
+  <ellipse cx="90" cy="130" rx="8" ry="6" fill="#FF9E5C"/>
+  
+  <!-- Stars around -->
+  <path d="M 20 40 L 22 45 L 27 45 L 23 48 L 25 53 L 20 50 L 15 53 L 17 48 L 13 45 L 18 45 Z" fill="#FFD700" opacity="0.8"/>
+  <path d="M 130 60 L 132 65 L 137 65 L 133 68 L 135 73 L 130 70 L 125 73 L 127 68 L 123 65 L 128 65 Z" fill="#FFD700" opacity="0.8"/>
+  <path d="M 75 10 L 77 15 L 82 15 L 78 18 L 80 23 L 75 20 L 70 23 L 72 18 L 68 15 L 73 15 Z" fill="#FFD700" opacity="0.8"/>
+</svg>
