@@ -33,6 +33,6 @@ Desktop application for managing books, students and borrowing records.
 
 ## 📫 Contact
 
-- LinkedIn: ...
-- Email: ...
-- Portfolio: ...
+- LinkedIn: linkedin.com/in/tiên-liên-b34a88222/
+- Email: lienhuetien01@gmail.com
+- Portfolio: [...](https://react-jry1.vercel.app/)
