@@ -20,7 +20,7 @@ https://github.com/CareerZone-graduation/CZCandidate
 **Tech stack:** React.js, Node.js, MongoDB, Redis, FastAPI, RAG, ChromaDB
 
 ### Comestic web
-Tech Stack: Java, Spring Boot, Spring Security, Spring Data JPA, Spring MVC, Thymeleaf, SQL
+**Tech stack:** Java, Spring Boot, Spring Security, Spring Data JPA, Spring MVC, Thymeleaf, SQL
 Server, Maven, RESTful APIs.
 https://github.com/MinhTrung9443/WebProject
 ### Library Management System
