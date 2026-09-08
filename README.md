@@ -1,8 +1,38 @@
-# React + Vite
+# Hi, I'm Lien Hue Tien 👋
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🎓 Information Technology Student at HCMUTE  
+💻 Aspiring Java Backend Engineer  
+🌱 Currently learning Spring Boot, Microservices & System Design
 
-Currently, two official plugins are available:
+## 🛠️ Technical Skills
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Languages:** Java, C++, JavaScript, SQL
+- **Backend:** Spring Boot, Node.js, Express.js
+- **Database:** MySQL, MongoDB, Redis
+- **Tools:** Git, GitHub, Docker
+- **Others:** REST API, OOP, Data Structures & Algorithms
+
+## 🚀 Projects
+
+### CareerZone
+AI-powered recruitment platform.
+
+**Tech stack:** React.js, Node.js, MongoDB, Redis, FastAPI, RAG, ChromaDB
+
+### Library Management System
+Desktop application for managing books, students and borrowing records.
+
+**Tech stack:** C#, WinForms, SQL Server
+
+## 📜 Certifications
+
+- Java Certification
+- OOP Certification
+- Data Structures & Algorithms Certification
+- Samsung Innovation Campus – Cloud & Big Data
+
+## 📫 Contact
+
+- LinkedIn: ...
+- Email: ...
+- Portfolio: ...
