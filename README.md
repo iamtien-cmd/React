@@ -16,16 +16,16 @@
 
 ### CareerZone
 AI-powered recruitment platform.
-https://github.com/CareerZone-graduation/CZCandidate
 **Tech stack:** React.js, Node.js, MongoDB, Redis, FastAPI, RAG, ChromaDB
+https://github.com/CareerZone-graduation/CZCandidate 
 
 ### Comestic web
 **Tech stack:** Java, Spring Boot, Spring Security, Spring Data JPA, Spring MVC, Thymeleaf, SQL
 Server, Maven, RESTful APIs.
 https://github.com/MinhTrung9443/WebProject
+
 ### Library Management System
 Desktop application for managing books, students and borrowing records.
-
 **Tech stack:** C#, WinForms, SQL Server
 https://github.com/iamtien-cmd/OOP-Library-Management-System-
 
