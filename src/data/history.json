@@ -1,28 +1,28 @@
 [
   {
+    "role": "NAB Innovation Centre Vietnam – WeCamp Program",
+    "organisation": "WeCamp",
+    "startDate": "Jul 2026",
+    "endDate": "Sep 2026",
+    "experiences": [
+      "Completed an intensive software engineering program covering Java, Data Structures & Algorithms, Operating Systems, Computer Networks, and Software Testing.",
+      "Designed and implemented backend services for user authentication and member management for the Trip-split capstone project.",
+      "Built login/logout workflows and CRUD operations to support team collaboration and project management.",
+      "Joined team-based sprint reviews and collaborated closely with members to improve the project and presentation quality."
+    ],
+    "imageSrc": "about/cute-bear-volunteer.svg",
+    "extraImage": "about/activity-nab2.jpg"
+  },
+  {
     "role": "Software Engineer Intern",
     "organisation": "Renesas Corporation",
     "startDate": "Jul 2025",
-    "endDate": "Dec 2025",
+    "endDate": "Nov 2025",
     "experiences": [
-      "Developed and enhanced internal application features using Java Core and Object-Oriented Programming principles",
-      "Applied OOP principles and design patterns to improve code maintainability and scalability",
-      "Participated in Agile/Scrum workflow including sprint planning, development, debugging, testing, and review meetings using Jira and Confluence",
-      "Debugged and optimized application logic, improving performance and system reliability"
+      "Developed and enhanced Java application features using Core Java, OOP, SOLID principles, and design patterns.",
+      "Participated in debugging, testing, CI/CD validation, and software release activities within an Agile/Scrum environment.",
+      "Delivered a Playback Mode feature to an existing Java application with 20 classes and executed 100 black-box test cases for release readiness."
     ],
-    "imageSrc": "history/renesas-cat.svg"
-  },
-  {
-    "role": "IT Support Technician",
-    "organisation": "HCMUTE",
-    "startDate": "Sep 2023",
-    "endDate": "Sep 2024",
-    "experiences": [
-      "Managed system configuration and troubleshooting for 500+ users",
-      "Prioritized and resolved technical issues under time constraints",
-      "Coordinated with internal teams to maintain service reliability",
-      "Documented recurring issues and proposed process improvements"
-    ],
-    "imageSrc": "history/hcmute-monkey.svg"
+    "imageSrc": "about/renesas.jpg"
   }
 ]

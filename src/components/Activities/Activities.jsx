@@ -5,24 +5,44 @@ import { getImageUrl } from "../../utils";
 export const Activities = () => {
     const activities = [
         {
-            title: "Summer Campaign Volunteer",
-            description: "Participated in community service activities during summer campaign",
-            image: "about/activity1.png"
+            title: "At Brunei – Small group",
+            description: "Created a small group and shared the experience during the Brunei program.",
+            image: "about/activity-brunei.png"
         },
         {
-            title: "Support Exam Season Volunteer",
-            description: "Assisted students during exam preparation and examination period",
-            image: "about/activity2.png"
+            title: "At Brunei – Team discussion",
+            description: "Joined a collaborative discussion session with peers at Brunei.",
+            image: "about/activity-brunei2.jpg"
         },
         {
-            title: "Spring Volunteer Campaign",
-            description: "Engaged in spring volunteer activities supporting local community",
-            image: "about/activity3.png"
+            title: "At Brunei – Learning session",
+            description: "Learning and exchanging ideas in an international academic environment.",
+            image: "about/activity-brunei3.jpg"
         },
         {
-            title: "Community Service",
-            description: "Active participation in various volunteer programs",
-            image: "about/activity4.png"
+            title: "At Brunei – Campus experience",
+            description: "Captured the memorable campus experience during the Brunei program.",
+            image: "about/activity-brunei4.jpg"
+        },
+        {
+            title: "Ocean Week Brunei",
+            description: "Participated in the Ocean Week activity and international learning program.",
+            image: "about/activity-oceanweek.jpg"
+        },
+        {
+            title: "NAB Innovation Centre Vietnam",
+            description: "Worked in the WeCamp training environment and gained software engineering experience.",
+            image: "about/activity-nab.png"
+        },
+        {
+            title: "Mentoring & peer support",
+            description: "Supported and learned from mentoring activities during the academic journey.",
+            image: "about/activity-mentoring.png"
+        },
+        {
+            title: "Volunteer exam support",
+            description: "Helped with student support and exam season preparation in the community.",
+            image: "about/activity-volunteer-exam.png"
         }
     ];
 

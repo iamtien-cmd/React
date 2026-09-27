@@ -4,21 +4,27 @@ import styles from "./About.module.css";
 import { getImageUrl } from "../../utils";
 
 export const About = () => {
+  const galleryPhotos = [
+    "about/avt1.jpg",
+    "about/avt2.jpg",
+    "about/avt3.jpg",
+    "about/avt4.jpg",
+    "about/avt5.jpg"
+  ];
+
   return (
     <section className={styles.container} id="about">
       <h2 className={styles.title}>About</h2>
       <div className={styles.content}>
         <div className={styles.imageGallery}>
-          <img
-            src={getImageUrl("about/avt1.jpg")}
-            alt="Me Photo 1"
-            className={styles.photo1}
-          />
-          <img
-            src={getImageUrl("about/avt2.jpg")}
-            alt="Me Photo 2"
-            className={styles.photo2}
-          />
+          {galleryPhotos.map((photo, index) => (
+            <img
+              key={photo}
+              src={getImageUrl(photo)}
+              alt={`Me Photo ${index + 1}`}
+              className={styles.photo}
+            />
+          ))}
         </div>
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
@@ -28,7 +34,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Profile</h3>
               <p>
-                Motivated Software Engineering student with strong foundation in Java Web development, Object-Oriented Programming, and database systems. Experienced in developing web applications using Java, Spring Boot, RESTful APIs, and SQL databases. Familiar with frontend technologies including HTML, CSS, JavaScript, Bootstrap, and ReactJS. Seeking a Software Engineer position to further develop backend and full-stack development skills.
+                Software Engineer with a strong foundation in Java, Object-Oriented Programming, backend development, and database systems. I have hands-on experience building Java applications, RESTful APIs, and full-stack projects using Spring Boot, ReactJS, and MongoDB/SQL. I enjoy solving practical engineering problems through clean architecture, testing, and iterative improvement.
               </p>
             </div>
           </li>
@@ -40,8 +46,8 @@ export const About = () => {
               <h3>Education</h3>
               <p>
                 <strong>Ho Chi Minh City University of Technology and Engineering</strong><br/>
-                Bachelor of Engineering in Information Technology (2022 – Present)<br/>
-                Expected Graduation: July 2026 | GPA: 3.72/4
+                Bachelor of Engineering in Information Technology (2022 – 2026)<br/>
+                GPA: 3.73/4
               </p>
             </div>
           </li>
@@ -52,12 +58,13 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Certificates & Achievements</h3>
               <p>
+                • UBD–AUN Summer Camp 2026 Participant (Brunei)<br/>
+                • Ocean Week Brunei 2026<br/>
+                • Wecamper NAB 2026<br/>
                 • Samsung Innovation Campus – Cloud & Big Data<br/>
-                • Marvell Vietnam Excellence Scholarship 2026<br/>
-                • Excellent Student – Five Criteria (3 Consecutive Years)<br/>
-                • Advanced Youth Following Ho Chi Minh's Teachings<br/>
-                • Academic Encouragement Award for 2 out of 7 eligible semesters<br/>
-                • CodeLearn: C++ Basic, Java, OOP, Data Structures & Algorithms
+                • Marvell Scholarship 2026<br/>
+                • Five-Good Student Award – 2025, 2024, 2023<br/>
+                • Advanced Youth Following Uncle Ho’s Teachings – 2024, 2025
               </p>
             </div>
           </li>

@@ -39,6 +39,13 @@ export const Experience = () => {
                       return <li key={id}>{experience}</li>;
                     })}
                   </ul>
+                  {historyItem.extraImage && (
+                    <img
+                      src={getImageUrl(historyItem.extraImage)}
+                      alt={`${historyItem.organisation} activity`}
+                      className={styles.extraHistoryImage}
+                    />
+                  )}
                 </div>
               </li>
             );
